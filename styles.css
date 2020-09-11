@@ -1,4 +1,5 @@
 
+
 body{
     background-color: plum;
     margin:0;
@@ -35,6 +36,8 @@ h1{
     
     
     
+    
+    
 }
 .content{
     background-color: white;
@@ -42,8 +45,28 @@ h1{
     margin-left:120px;
     padding: 4px 16px 4px   16px;
     margin-top:10px;
+    float: left;
+    position: inline;
     
 }
+h3.main {
+    color: white;
+    padding: 8px;
+    display: block;
+    text-decoration:none ;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif\;
+}
+.sidebar{
+    margin:0;
+    padding: 0;
+    height: 100%;
+    width: 100px;
+    overflow: auto;
+    background-color:blueviolet;
+    position: fixed
+}
+    
 
 .sidebar a {
     color: white;
@@ -55,37 +78,29 @@ h1{
     font-family: "Lato",sans-serif;
     
 
-}
-h3.main {
-    color: white;
-    padding: 8px;
-    display: block;
-    text-decoration:none ;
-    text-align: center;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif\;
-}
 
-.sidebar{
-    margin:0;
-    padding: 0;
-    height: 100%;
-    width: 100px;
-    overflow: auto;
-    background-color:blueviolet;
-    position: fixed; 
-    
+
+
+
 }
  a:hover{
     color: white;
     background-color:black ;
-    width:inherit ;
+    width: inherit;
     
-     
-
-}
+ }
 a:visited{
     background-color:black ;
 }
+
+
+ 
+
+
+
+
+
+
 
 
  
