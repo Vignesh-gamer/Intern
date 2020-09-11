@@ -1,7 +1,7 @@
 
 
 body{
-    background-color: plum;
+    background-color: rgb(27, 61, 54);
     margin:0;
     
 }
@@ -41,7 +41,7 @@ h1{
 }
 .content{
     background-color: white;
-    color: black;
+    color: black; 
     margin-left:120px;
     padding: 4px 16px 4px   16px;
     margin-top:10px;
@@ -63,7 +63,7 @@ h3.main {
     height: 100%;
     width: 100px;
     overflow: auto;
-    background-color:blueviolet;
+    background-color:rgb(106, 24, 145);
     position: fixed
 }
     
