@@ -42,11 +42,9 @@ h1{
 .content{
     background-color: white;
     color: black; 
-    margin-left:120px;
+    margin-left:100px;
     padding: 4px 16px 4px   16px;
-    margin-top:10px;
-    float: left;
-    position: inline;
+    
     
 }
 h3.main {
@@ -64,7 +62,8 @@ h3.main {
     width: 100px;
     overflow: auto;
     background-color:rgb(106, 24, 145);
-    position: fixed
+    float: left;
+    
 }
     
 
